@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Oswald:wght@400;700&display=swap');
 :root {
     --widthBoxHeader: 150px;
 }
@@ -12,7 +13,7 @@ body {
 
     margin: 0 auto;
     width: 1050px;
-    height: 1000px;
+    height: 1500px;
     border:  1px solid #dfdfdf;
     background-color: #ececeb;
 
@@ -26,8 +27,7 @@ body {
     text-align: center;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 30px 0px 30px;
-    
+    margin: 60px 60px 0px 60px;
 
 }
 
@@ -48,14 +48,13 @@ body {
 
 .main_title {
 
-  
     font-family: 'UnifrakturMaguntia', cursive;
 }
 
 .main_title p {
     align-items: center;
     display: flex;
-    font-size: 65px;
+    font-size: 55px;
 }
 
 
@@ -85,8 +84,79 @@ body {
     text-align: center;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 30px 10px;
+    margin: 0px 60px 10px;
     padding: 20px;
     border-bottom: 1px solid black;
 
 }
+.navegation_text3 {
+
+    font-weight: bold;
+
+}
+.navegation_text5 {
+
+    font-style: italic;
+
+}
+
+.content-mainTitle {
+
+    position: relative;
+    bottom: 35px;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    margin: 0px 60px 0px;
+    padding: 0px;
+
+}
+
+.content-mainTitle p {
+
+    height: 170px;
+    margin: 0;
+    font-size: 128px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.content-mainSubtitle {
+
+    position: relative;
+    bottom: 35px;
+    justify-content: center;
+    margin: 0px 60px 0px;
+    padding: 0px;
+}
+
+.content-mainSubtitle p {
+
+    height: 163px;
+    margin: 0;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+
+
+
+.content_main-image {
+
+    position: relative;
+    top: -120px;
+    height: 500px;
+    margin: 0px 60px 0px 60px;
+    display: flex;
+
+}
+
+.main_image {
+
+  width: -webkit-fill-available;
+  
+}
+
+
