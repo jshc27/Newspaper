@@ -1,0 +1,51 @@
+/* -------------------------------------------
+
+styles for mobile: 375px 
+
+------------------------------------------- */
+
+
+.main-content {
+
+    height: 215vmax;
+    width: min-content;
+
+}
+
+.content_right {
+
+    bottom: 220px;
+    left: 410px;
+    position: relative;
+
+}
+
+.content_parrafo {
+
+    height: 419px;
+
+}
+
+.content_parrafo p {
+
+    margin: 10px;
+
+}
+.content_parrafo-text {
+
+    display:inline-block;
+
+}
+
+.footer {
+
+    margin: 30px 0px 0px;
+
+}
+
+.navegation {
+
+    display: inline-table;
+    width: -webkit-fill-available;
+
+}

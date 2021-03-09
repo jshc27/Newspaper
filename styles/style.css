@@ -1,27 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Oswald:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Oswald:wght@400;700&display=swap');
+
+/* Variables  */
+
 :root {
     --widthBoxHeader: 150px;
+    --borderBotton: 0.1px solid black;
 }
 
 body {
-    background-color: rosybrown;
+
+    box-sizing: border-box;
+
 }
 
 .main-content {
 
+    border:  1px solid #dfdfdf; 
+    background-color: #ececeb;
     margin: 0 auto;
     width: 1050px;
     height: 1450px;
-    border:  1px solid #dfdfdf;
-    background-color: #ececeb;
 
 }
 
+/* ------------------------- HEADER ------------------------- */
+
 .header {
 
-    border-bottom: 0.1px solid black;
+    border-bottom: var(--borderBotton);
     height: 120px;
     display: flex;
     text-align: center;
@@ -35,26 +43,30 @@ body {
 
     height: 50px;
     width: var(--widthBoxHeader);
-    border: 1px solid black;
-
+    border: var(--borderBotton);
 
 }
 
 .content_left p {
+
     font-size: 12px;
     padding: 5px;
     margin: 0px;
+
 }
 
 .main_title {
 
     font-family: 'UnifrakturMaguntia', cursive;
+
 }
 
 .main_title p {
+
     align-items: center;
     display: flex;
     font-size: 55px;
+
 }
 
 
@@ -65,20 +77,16 @@ body {
     width: var(--widthBoxHeader);
 
 }
-.content_right p {
-    margin: 0px;
-}
-
-.content_right h4 {
+.content_right p, .content_right h4 {
 
     margin: 0px;
 
 }
 
+/* ------------------------- NAVIGATION-MAIN TITLE AND SUBTITLE ------------------------- */
 
 .navegation {
 
-    border-bottom: 0.1px solid black;
     height: 20px;
     display: flex;
     text-align: center;
@@ -86,9 +94,10 @@ body {
     align-items: center;
     margin: 0px 60px 10px;
     padding: 20px;
-    border-bottom: 1px solid black;
+    border-bottom: var(--borderBotton);
 
 }
+
 .navegation_text3 {
 
     font-weight: bold;
@@ -104,7 +113,7 @@ body {
 
     position: relative;
     bottom: 35px;
-    border-bottom: 1px solid black;
+    border-bottom: var(--borderBotton);
     justify-content: center;
     margin: 0px 60px 0px;
     padding: 0px;
@@ -127,6 +136,7 @@ body {
     justify-content: center;
     margin: 0px 60px 0px;
     padding: 0px;
+
 }
 
 .content-mainSubtitle p {
@@ -139,9 +149,7 @@ body {
 
 }
 
-
-
-
+/* ------------------------- MAIN IMAGE- SUBTITLE - PARAGRAPH ------------------------- */
 
 .content_main-image {
 
@@ -156,11 +164,8 @@ body {
 .main_image {
 
   width: -webkit-fill-available;
-  
+
 }
-
-
-
 
 .content-subtitle {
 
@@ -169,16 +174,16 @@ body {
     margin: 0px 60px 0px 60px;
     height: 80px;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: var(--borderBotton);
     font-family: 'Oswald', sans-serif;
+
 }
 
 .content-subtitle p {
 
     font-size: xxx-large;
-   
-}
 
+}
 
 .content_parrafo {
 
@@ -187,19 +192,23 @@ body {
     margin: 0px 60px 0px 60px;
     height: 270px;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: var(--borderBotton);
 
 }
 
 .content_parrafo-text {
+
     display: flex;
     text-align: justify;
     margin: 15px 0px 15px;
+
 }
 
 .content_parrafo-text p {
+
     padding-right: 12px;
     margin: 0;
+
 }
 
 
@@ -210,9 +219,12 @@ h6 {
 
 }
 
+/* ------------------------- FOOTER ------------------------- */
 
 .footer {
+
     display: flex;
     justify-content:space-evenly;
     margin: 60px 0px 0px;
+
 }
