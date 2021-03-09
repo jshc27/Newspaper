@@ -7,7 +7,7 @@ styles for mobile: 375px
 
 .main-content {
 
-    height: 320vmax;
+    height: 340vmax;
     width: min-content;
 
 }
@@ -19,6 +19,7 @@ styles for mobile: 375px
     position: relative;
 
 }
+
 
 .content_parrafo {
 

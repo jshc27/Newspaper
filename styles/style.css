@@ -42,7 +42,7 @@ body {
 
 .content_left {
 
-    height: 50px;
+    height: 60px;
     width: var(--widthBoxHeader);
     border: var(--borderBotton);
 
