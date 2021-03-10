@@ -29,7 +29,7 @@ styles for mobile: 375px
 .content_parrafo {
 
     height: 415px;
-    margin: 20px 15px 0px 15px;
+    border-bottom: none;
 
 }
 
@@ -47,7 +47,9 @@ styles for mobile: 375px
 
 .footer {
 
-    margin: 45px 0px 0px;
+    margin: 20px 0px 0px;
+    padding-top: 20px;
+    border-top: 1px solid black;
 
 }
 
