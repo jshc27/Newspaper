@@ -12,18 +12,23 @@ styles for mobile: 375px
 
 }
 
+.content_left {
+
+    padding: 8px;
+
+}
+
 .content_right {
 
-    bottom: 220px;
+    bottom:  232px;
     left: 410px;
     position: relative;
 
 }
 
-
 .content_parrafo {
 
-    height: 419px;
+    height: 425px;
 
 }
 
@@ -32,9 +37,17 @@ styles for mobile: 375px
     margin: 10px;
 
 }
+
 .content_parrafo-text {
 
     display:inline-block;
+
+}
+
+
+.content_parrafo-text p {
+
+    font-size: 15px;
 
 }
 
